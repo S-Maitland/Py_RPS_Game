@@ -10,7 +10,7 @@ computer = t[randint(0,2)]
 player = False
 
 while player == False:
-#set player to True
+#set player to True.
     player = input("Rock, Paper, Scissors?").lower()
     print (player)
     if player == computer:
